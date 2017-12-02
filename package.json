@@ -1,0 +1,43 @@
+{
+  "name": "pngpad",
+  "version": "0.0.0",
+  "description": "Pad all png images in a directory by max width and height of them.",
+  "author": "conechan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conechan/pngpad.git"
+  },
+  "main": "lib/index.js",
+  "bin": {
+    "pngpad": "bin/pngpad.js"
+  },
+  "scripts": {
+    "test": "npm run lint && nyc ava",
+    "lint": "xo"
+  },
+  "devDependencies": {
+    "ava": "^0.22.0",
+    "nyc": "^11.3.0",
+    "xo": "^0.18.2"
+  },
+  "dependencies": {
+    "jimp": "^0.2.28",
+    "readdir-enhanced": "^2.1.0"
+  },
+  "xo": {
+    "space": 2,
+    "semicolon": false,
+    "esnext": true,
+    "rules": {
+      "capitalized-comments": 0
+    },
+    "ignores": [
+      "vendor/**",
+      "ref/**"
+    ]
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
