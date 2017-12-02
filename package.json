@@ -13,7 +13,7 @@
     "pngpad": "bin/pngpad.js"
   },
   "scripts": {
-    "test": "npm run lint && nyc ava",
+    "test": "npm run lint",
     "lint": "xo"
   },
   "devDependencies": {
