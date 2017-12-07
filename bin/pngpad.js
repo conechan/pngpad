@@ -1,4 +1,10 @@
 #!/usr/bin/env node
 'use strict'
 
-require('../lib')()
+const pngpad = require('../lib')
+const log = require('../lib/log')
+
+pngpad().catch(err => {
+  log.error(err.message)
+  process.exit(1)
+})
