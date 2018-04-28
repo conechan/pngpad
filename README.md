@@ -1,6 +1,6 @@
 # pngpad
 
-> Pad all png images in a directory by max width and height of them.
+> Pad all png images in a directory by the same width and height.
 
 ## Install
 
@@ -15,7 +15,7 @@ Put all the png images what you want to unisize in a directory.
 Then run below command:
 
 ```
-$ pngpad
+$ pngpad --help
 ```
 
-Checkout the output folder you will see what you want!
+Checkout the usage.

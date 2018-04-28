@@ -19,11 +19,12 @@
   "devDependencies": {
     "ava": "^0.22.0",
     "nyc": "^11.3.0",
-    "xo": "^0.18.2"
+    "xo": "^0.20.3"
   },
   "dependencies": {
     "chalk": "^2.3.0",
     "jimp": "^0.2.28",
+    "meow": "^5.0.0",
     "readdir-enhanced": "^2.1.0"
   },
   "xo": {
