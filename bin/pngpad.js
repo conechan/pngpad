@@ -12,6 +12,7 @@ const cli = meow(`
 	Options
     --width, -w  output width
     --height, -h output height
+    --position, -p start position, default is center, maybe top, right, bottom, left
 
 	Examples
 	  $ pngpad ./input
@@ -22,8 +23,12 @@ const cli = meow(`
       alias: 'w'
     },
     height: {
-      type: 'height',
+      type: 'number',
       alias: 'h'
+    },
+    position: {
+      type: 'string',
+      alias: 'p'
     }
   }
 })
